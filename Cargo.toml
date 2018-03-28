@@ -24,7 +24,9 @@ version = ">=1.10.0"
 
 [dependencies.fpa]
 optional = true
-version = ">=0.1.0"
+# version = ">=0.1.0"
+git = "https://github.com/regexident/fpa.git"
+branch = "experimental"
 
 [dependencies.ndarray]
 optional = true
